@@ -9,14 +9,14 @@ exclude_files = ["**/*.rbc", "test/s3.yml", "test/debug.log", "test/paperclip.db
 end.flatten
 
 spec = Gem::Specification.new do |s|
-  s.name              = "paperclip"
+  s.name              = "sayso-paperclip"
   s.version           = Paperclip::VERSION
-  s.author            = "Jon Yurek"
-  s.email             = "jyurek@thoughtbot.com"
-  s.homepage          = "http://www.thoughtbot.com/projects/paperclip"
-  s.description       = "Easy upload management for ActiveRecord"
+  s.author            = "SaySo"
+  s.email             = "sayso@truvolabs.com"
+  s.homepage          = "http://github.com/sayso/paperclip"
+  s.description       = "Easy upload management for ActiveRecord - forked and gemified for sayso"
   s.platform          = Gem::Platform::RUBY
-  s.summary           = "File attachments as attributes for ActiveRecord"
+  s.summary           = "File attachments as attributes for ActiveRecord - forked and gemified for sayso"
   s.files             = include_files - exclude_files
   s.require_path      = "lib"
   s.test_files        = Dir["test/**/test_*.rb"]
